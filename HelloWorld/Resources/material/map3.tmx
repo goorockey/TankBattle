@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="12" tileheight="12">
+ <tileset firstgid="1" name="tileset2" tilewidth="12" tileheight="12">
+  <image source="tileset2.png" width="36" height="12"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="name" value="steel"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="name" value="wall"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDoat/09OwPySsmqqqqqqqqqqqqu8HNzbruIAlAAA=
+  </data>
+ </layer>
+ <layer name="map" width="60" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Yyw7DIAwEo/L//9wrJQavjZ1Sd0fiwmPxRCRKcl06r655aF2LYremzGz67hPl24TWZ49j1kxkP4TqvpaaLDXu+krX/WRfjVN8I58FKzy+ljz62uZFQ99PqvmONYxU9pXIes+j7xlovlq9s/WZvju5Wb6Z0Bfnad+I801fnLFe6Tkza9J6S61e6Ivz7+d5le1Zb82zZtB3TTVf7b3uF33RfI+vBn3xejLQfHdBvo+Q/ijoGwt97/si/VFYfa3zrb7ZVPOV6mtDHZG+Yz997/Mi//l82xfJeeIfl3cP+s7H0ZzVWYu6z6v4vgHlzvDogCUAAA==
+  </data>
+ </layer>
+</map>

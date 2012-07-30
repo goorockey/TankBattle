@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" value="false"/>
+    <property name="name" value="grass"/>
+    <property name="passThough" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" value="false"/>
+    <property name="name" value="steel"/>
+    <property name="passThough" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collide" value="true"/>
+    <property name="name" value="wall"/>
+    <property name="passThough" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDoat/05OxDySsmqqqPj1QffkwkAoAAA==
+  </data>
+ </layer>
+ <layer name="map" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgHMaYGQ3TSt+oPaP20NMeWmEmJExLs+llD74wRsfo7iKknti4HIr2DOd0QE883MqdUXtG7aElBgAB9p5XkAoAAA==
+  </data>
+ </layer>
+</map>

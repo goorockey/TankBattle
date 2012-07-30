@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="26" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32">
+  <image source="grass.png" width="78" height="70"/>
+  <tile id="0">
+   <properties>
+    <property name="passThough" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="wall" tilewidth="32" tileheight="32">
+  <image source="wall.png" width="480" height="320"/>
+  <tile id="0">
+   <properties>
+    <property name="passThough" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="155" name="steel" tilewidth="32" tileheight="32">
+  <image source="steel.png" width="32" height="32"/>
+ </tileset>
+ <layer name="grass" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDoat/05OxDySsmqqqPj1QffkwkAoAAA==
+  </data>
+ </layer>
+ <layer name="wall" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGN6AFQ3jkiNF36g9o/aMFHtGAekAPYyxYUrUD1d7BguglnsJ+Z1UOVLjhxpuxKaWGoAceyhJu6TagwsMZntINYuQHKmAGvYAAIZytkiQCgAA
+  </data>
+ </layer>
+</map>
