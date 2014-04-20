@@ -16,7 +16,7 @@ CGameManager::~CGameManager(void)
 {
 }
 
-void CGameManager::runSceneWithId( SceneId id )
+ void CGameManager::runSceneWithId( SceneId id )
 {
     CCScene *newScene = NULL;
 

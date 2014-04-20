@@ -10,11 +10,11 @@ CCScene* CGameOver::scene()
     do 
     {
         // 'scene' is an autorelease object
-        scene = CCScene::node();
+        scene = CCScene::create();
         CC_BREAK_IF(! scene);
 
         // 'layer' is an autorelease object
-        CGameOver *layer = CGameOver::node();
+        CGameOver *layer = (CGameOver*)CGameOver::create();
         CC_BREAK_IF(! layer);
 
         // add layer as a child to scene
