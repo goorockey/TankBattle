@@ -294,7 +294,7 @@ bool CGameScene::createPlayer()
 
 bool CGameScene::startNewGame()
 {
-	bool bRet = false;
+	  bool bRet = false;
 
     do 
     {
