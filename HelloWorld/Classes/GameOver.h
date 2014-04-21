@@ -16,8 +16,7 @@ public:
     // a selector callback
     virtual void menuRetryCallback(CCObject* pSender);
     virtual void menuExitCallback(CCObject* pSender);
-
     // implement the "static node()" method manually
-    LAYER_NODE_FUNC(CGameOver);
+    CREATE_FUNC(CGameOver);
 };
 

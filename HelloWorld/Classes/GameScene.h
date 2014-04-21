@@ -35,7 +35,7 @@ public:
 
 
     // implement the "static node()" method manually
-    LAYER_CREATE_FUNC(CGameScene);
+    CREATE_FUNC(CGameScene);
 
     CCArray* getPlayerList();
 

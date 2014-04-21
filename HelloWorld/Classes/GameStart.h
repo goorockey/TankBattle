@@ -10,7 +10,7 @@ public:
     virtual bool init();  
 
     // implement the "static node()" method manually
-    LAYER_NODE_FUNC(CGameStart);
+    CREATE_FUNC(CGameStart);
 
     static CCScene* scene();
     void menuPlayCallback(CCObject* pSender);

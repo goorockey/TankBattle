@@ -8,11 +8,11 @@ CCScene* CGameStart::scene()
     do 
     {
         // 'scene' is an autorelease object
-        scene = CCScene::node();
+        scene = CCScene::create();
         CC_BREAK_IF(! scene);
 
         // 'layer' is an autorelease object
-        CGameStart *layer = CGameStart::node();
+        CGameStart *layer = (CGameStart*)CGameStart::create();
         CC_BREAK_IF(! layer);
 
         // add layer as a child to scene
